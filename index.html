@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.CSS">
+    <script src="main.js"></script>
+    <title>Lista de convidados</title>
+</head>
+<body>
+    <center>
+    <h3>Lista de convidados</h3>
+    <div id="Convidado_Enviar">
+        <input type="text" placeholder="Insira o Nome" id="NomeDoConvidado">
+        <button onclick="submit()" id="submitButton" style="font-weight: bold">
+            Enviar
+        </button>
+    </div>
+    <hr><hr>
+    <div>
+    <h3>Lista de Convidados</h3>
+    <div id="Convidado_Mostrar">
+    <button onclick="show()" id="namesOfPeople" style="font-weight: bold">
+        Mostrar
+    </button>
+    </div>
+    <hr><hr>
+    <div id="Convidado_Pesquisar">
+        <input type="text" placeholder="Pesquisar Nome" id="PesquisarNome">
+        <button onclick="searching()" id="searchButton" style="font-weight: bold">
+            Pesquisar
+        </button>
+    </div>
+</center>
+</body>
+</html>
